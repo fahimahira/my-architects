@@ -21,7 +21,7 @@ header {
     background-color: #ff8f0e25;
 }
 
-.header-wraper {
+.header-section {
     width: 80%;
     margin: 0 auto;
 }
@@ -40,6 +40,11 @@ nav {
 .nav-link ul {
     display: flex;
     justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 30px;
 }
 
 .nav-link ul li {
@@ -107,6 +112,8 @@ nav {
 /* Banner Style  */
 
 .banner-image {
+    width: 100%;
+    margin: 0 auto;
     padding-bottom: 20px;
 }
 
@@ -191,8 +198,9 @@ nav {
 }
 
 .feature-img img {
-    width: 400px;
-    height: 555px;
+    width: 90%;
+    /* width: 400px;
+    height: 555px; */
 }
 
 .second-list {
@@ -209,7 +217,14 @@ nav {
     color: #131313;
 }
 
-.experience-icon {
+.content-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 10px 0;
+}
+
+.experience {
     background-color: #FF900E;
     position: relative;
     top: -85px;
@@ -223,7 +238,7 @@ nav {
     color: #fff;
 }
 
-.experience-icon p {
+.experience p {
     font-size: 15px;
     font-weight: normal;
 }
